@@ -17,7 +17,7 @@ Para configurar o ambiente local e rodar os testes do projeto, siga os passos ab
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/AnaClaudiaOT/PGTAS-trabalho.git
+git clone https://github.com/AnaClaudiaOT/PGATS-trabalho.git
 cd seu-repositorio
 ```
 
