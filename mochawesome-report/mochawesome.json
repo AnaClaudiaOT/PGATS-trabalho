@@ -5,8 +5,8 @@
     "passes": 5,
     "pending": 0,
     "failures": 0,
-    "start": "2025-06-29T23:00:05.575Z",
-    "end": "2025-06-29T23:00:05.583Z",
+    "start": "2025-06-29T23:24:52.038Z",
+    "end": "2025-06-29T23:24:52.046Z",
     "duration": 8,
     "testsRegistered": 5,
     "passPercent": 100,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "02ec3fb8-6273-4f96-bdf5-3d8f0631e973",
+      "uuid": "c3f25ea7-11b8-4b1d-89cc-fc4a886e0dbb",
       "title": "",
       "fullFile": "C:\\Users\\Ana\\PGTAS\\PGATS-trabalho\\trabalho-final\\trabalho-final.js",
       "file": "\\trabalho-final\\trabalho-final.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "125ced34-3fba-461f-845b-c9027e8a4939",
+          "uuid": "65272f29-2b89-4f05-a311-2f50c87ea7f8",
           "title": "Testes da disciplina - fundamentos JS",
           "fullFile": "C:\\Users\\Ana\\PGTAS\\PGATS-trabalho\\trabalho-final\\trabalho-final.js",
           "file": "\\trabalho-final\\trabalho-final.js",
@@ -47,8 +47,8 @@
               "context": null,
               "code": "assert.strictEqual(geradorDeTagsDeIdentificacao(\"Loki\"), \"LOKI\");",
               "err": {},
-              "uuid": "99824f67-ff9c-4cd8-b001-cd92d129d950",
-              "parentUUID": "125ced34-3fba-461f-845b-c9027e8a4939",
+              "uuid": "998f4c4c-bc26-4f3e-a0c5-427052412c3d",
+              "parentUUID": "65272f29-2b89-4f05-a311-2f50c87ea7f8",
               "isHook": false,
               "skipped": false
             },
@@ -65,8 +65,8 @@
               "context": null,
               "code": "assert.strictEqual(verificarSePodeSerAdotado(1, \"M\"), true);",
               "err": {},
-              "uuid": "8c29ae83-1a2d-4e44-89ff-dda0a53ffcb5",
-              "parentUUID": "125ced34-3fba-461f-845b-c9027e8a4939",
+              "uuid": "7c2e457b-7309-4001-b28d-4a623763adc2",
+              "parentUUID": "65272f29-2b89-4f05-a311-2f50c87ea7f8",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "QUANDO o peso = 14.5, DEVE ser retornado 4350 gramas para o consumo diário",
               "fullTitle": "Testes da disciplina - fundamentos JS QUANDO o peso = 14.5, DEVE ser retornado 4350 gramas para o consumo diário",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,8 +83,8 @@
               "context": null,
               "code": "assert.strictEqual(calcularConsumoDeRacao(\"Mococa\", 1, 14.5), 4350);",
               "err": {},
-              "uuid": "69fe7764-5334-4671-972e-99dc07ddb347",
-              "parentUUID": "125ced34-3fba-461f-845b-c9027e8a4939",
+              "uuid": "e661e06e-a791-44f3-a06c-5de6f56c3c8c",
+              "parentUUID": "65272f29-2b89-4f05-a311-2f50c87ea7f8",
               "isHook": false,
               "skipped": false
             },
@@ -99,10 +99,10 @@
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "assert.strictEqual(\n  decidirTipoDeAtividadePorPorte(\"pequeno\"),\n  \"brincar dentro de casa\"\n);",
+              "code": "assert.strictEqual(\n  decidirTipoDeAtividadePorPorte(\"pequeno\"),\n  \"brincar dentro de casa\",\n);",
               "err": {},
-              "uuid": "0e72c2d4-81ee-41e7-abee-20c3079b541a",
-              "parentUUID": "125ced34-3fba-461f-845b-c9027e8a4939",
+              "uuid": "12dd44fa-60e6-4f51-805c-1249142127ea",
+              "parentUUID": "65272f29-2b89-4f05-a311-2f50c87ea7f8",
               "isHook": false,
               "skipped": false
             },
@@ -110,7 +110,7 @@
               "title": "QUANDO buscar dado de exemplo, DEVE retornar um valor de forma assíncrona",
               "fullTitle": "Testes da disciplina - fundamentos JS QUANDO buscar dado de exemplo, DEVE retornar um valor de forma assíncrona",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -119,24 +119,24 @@
               "context": null,
               "code": "const resultado = await buscarDadoAsync();\nassert.strictEqual(resultado, \"Sam\");",
               "err": {},
-              "uuid": "0312ed53-2696-4595-ae99-e5e03259bd72",
-              "parentUUID": "125ced34-3fba-461f-845b-c9027e8a4939",
+              "uuid": "1bbb1fc0-2a43-48b9-9d46-7d437c2ee823",
+              "parentUUID": "65272f29-2b89-4f05-a311-2f50c87ea7f8",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "99824f67-ff9c-4cd8-b001-cd92d129d950",
-            "8c29ae83-1a2d-4e44-89ff-dda0a53ffcb5",
-            "69fe7764-5334-4671-972e-99dc07ddb347",
-            "0e72c2d4-81ee-41e7-abee-20c3079b541a",
-            "0312ed53-2696-4595-ae99-e5e03259bd72"
+            "998f4c4c-bc26-4f3e-a0c5-427052412c3d",
+            "7c2e457b-7309-4001-b28d-4a623763adc2",
+            "e661e06e-a791-44f3-a06c-5de6f56c3c8c",
+            "12dd44fa-60e6-4f51-805c-1249142127ea",
+            "1bbb1fc0-2a43-48b9-9d46-7d437c2ee823"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -154,7 +154,7 @@
   ],
   "meta": {
     "mocha": {
-      "version": "11.5.0"
+      "version": "11.7.1"
     },
     "mochawesome": {
       "options": {
