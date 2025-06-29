@@ -78,7 +78,6 @@
     "which": "^2.0.2",
     "workerpool": "^6.5.1",
     "wrap-ansi": "^8.1.0",
-    "wrap-ansi-cjs": "^7.0.0",
     "y18n": "^5.0.8",
     "yargs": "^17.7.2",
     "yargs-parser": "^21.1.1",
