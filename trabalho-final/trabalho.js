@@ -11,7 +11,7 @@ export function verificarSePodeSerAdotado(idadeCao, porte) {
 
 export function calcularConsumoDeRacao(nome, idade, peso) {
   console.log(
-    `Calculando o consumo de ração para ${nome}, idade: ${idade} anos, peso: ${peso} kg`
+    `Calculando o consumo de ração para ${nome}, idade: ${idade} anos, peso: ${peso} kg`,
   );
   return peso * 300;
 }

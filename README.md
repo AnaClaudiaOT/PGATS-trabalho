@@ -51,4 +51,3 @@ npm run testes
 ```
 
 Esse comando executará os testes definidos no arquivo `trabalho-final.js` utilizando o **Mocha** como framework de teste.
-

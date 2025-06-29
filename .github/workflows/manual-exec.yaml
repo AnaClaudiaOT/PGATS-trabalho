@@ -1,0 +1,36 @@
+# Nome do nosso 'pipeline'
+name: "Execução Manual"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  e2e-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+
+      - name: Instalando o yarn
+        run: npm install -g yarn
+
+      - name: Instalando dependencias
+        run: yarn
+
+      - name: Instalando Mochawesome Report
+        run: yarn add --dev mochawesome mochawesome-merge mochawesome-report-generator
+
+      - name: Checando padronização do código
+        run: yarn lint
+
+      - name: Executando os Testes
+        run: yarn testes
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: relatorio-mocha
+          path: mochawesome-report/mochawesome.html
