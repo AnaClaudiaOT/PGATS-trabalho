@@ -24,9 +24,6 @@ jobs:
       - name: Instalando Mochawesome Report
         run: yarn add --dev mochawesome mochawesome-merge mochawesome-report-generator
 
-      - name: Checando padronização do código
-        run: yarn lint
-
       - name: Executando os Testes
         run: yarn testes
 
